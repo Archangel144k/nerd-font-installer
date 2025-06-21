@@ -1,6 +1,6 @@
 # Nerd Font Installer CLI
 
-A modern, enhanced Rust-based command-line tool to list, download, and install Nerd Fonts on your system with beautiful colored output and progress indicators.
+A Rust-based command-line tool to list, download, and install Nerd Fonts on your system with beautiful colored output and progress indicators.
 
 ## ✨ Features
 
