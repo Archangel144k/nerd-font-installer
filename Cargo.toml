@@ -1,0 +1,21 @@
+[package]
+name = "nerd-font-installer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A modern CLI tool to download and install Nerd Fonts"
+repository = "https://github.com/yourusername/nerd-font-installer"
+license = "MIT"
+keywords = ["fonts", "nerd-fonts", "cli", "installer"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+[dependencies]
+dirs = "5.0"
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+zip = "0.6"
+clap = { version = "4.5.4", features = ["derive"] }
+indicatif = "0.17"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+colored = "2.0"
