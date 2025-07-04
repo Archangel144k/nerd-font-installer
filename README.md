@@ -52,6 +52,7 @@ cargo run -- update              # Update fonts (planned)
 ## 🛠️ Installation
 
 1. **Prerequisites**: Rust (https://rustup.rs)
+   - **Fedora**: `sudo dnf install openssl-devel`
 
 2. **Clone and build**:
 ```bash
